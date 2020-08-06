@@ -4,6 +4,13 @@
 	padding: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+body {
+	font-family: 'Playfair Display', serif;
+	-webkit-font-smoothing: antialiased;
+}
+
 body {
 	text-rendering: optimizeLegibility;
 	background: black url(../pictures/background_1.jpg) no-repeat bottom fixed;
@@ -11,11 +18,6 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-}
-
-body p {
-	font-family: PlayfairDisplay-Bold;
-	src: url(../fonts/PlayfairDisplay-Bold.otf);
 }
 
 li {
@@ -26,13 +28,6 @@ li {
 a {
 	text-decoration: none;
 }
-
-/*.container {
-	max-width: 1920px;
-	margin: 0 auto;
-	background-color: #fff;
-}*/
-
 
 header {
 	width: 100%;
@@ -68,24 +63,20 @@ header {
 	justify-content: flex-start;
 	}
 
-.message p {
+.message h1 {
 	padding-top: 75px;
 	padding-left: 15%;
-	/*font-size: calc(43px + (100 - 43) * ((100vw - 600px) / (1920 - 600)));*/
 	font-size: 95px;
 	letter-spacing: 0.1em;
 	font-weight: bold;
 	line-height: 150%;
 	text-align: left;
 	color: black;
-	font-family: PlayfairDisplay-Bold;
-	
 }		
 
-.message p span {
+.message h1 span {
 	color: white;
 }
-
 
 .rectangle {
 	max-width: 800px;
@@ -96,7 +87,7 @@ header {
 }
 
 .rectangle p {
-	padding-top: 15px;
+	padding-top: 11px;
 	background-color: white;
 	height: 55px;
 	width: 600px;
@@ -105,11 +96,7 @@ header {
 	font-weight: bold;
 	text-align: center;
 	color: black;
-	font-family: PlayfairDisplay-Bold;
 }
-
-
-
 
 @media screen and (max-width: 1280px) {
 
@@ -158,24 +145,20 @@ header {
 		justify-content: flex-start;
 		}
 	
-	.message p {
+	.message h1 {
 		padding-top: 75px;
 		padding-left: 0%;
-		/*font-size: calc(43px + (100 - 43) * ((100vw - 600px) / (1920 - 600)));*/
 		font-size: 94px;
 		letter-spacing: 0.1em;
 		font-weight: bold;
 		line-height: 150%;
 		text-align: left;
 		color: black;
-		font-family: PlayfairDisplay-Bold;
-		
 	}		
 	
-	.message p span {
+	.message h1 span {
 		color: white;
 	}
-	
 	
 	.rectangle {
 		max-width: 800px;
@@ -187,7 +170,7 @@ header {
 	}
 	
 	.rectangle p {
-		padding-top: 15px;
+		padding-top: 11px;
 		background-color: white;
 		height: 55px;
 		width: 600px;
@@ -196,287 +179,14 @@ header {
 		font-weight: bold;
 		text-align: center;
 		color: black;
-		font-family: PlayfairDisplay-Bold;
 	}
-
-
 
 }
-/*
-@media screen and (max-width: 1024px) {
-
-	body {
-		background: black url(../pictures/background_5.jpg) no-repeat bottom fixed;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-	}
-
-	header {
-		width: 700px;
-		margin: 0 auto;
-	}
-
-	.heading-div {
-		max-width: 700px;
-		margin: 0 auto;
-		display: flex;
-		justify-content: flex-start;
-	}
-	
-	.logo {
-		display: flex;
-		padding-top: 100px;
-		padding-right: 150px;
-		padding-left: 0%;
-	}
-	
-	.logo img {
-		width: 100px;
-	}
-	
-	.nav-menu {
-		display: flex;
-		width: 450px;
-		justify-content: space-between;
-		padding-top: 193px;
-	}
-	
-	.message {
-		max-width: 700px;
-		margin: 0 auto;
-		display: flex;
-		justify-content: flex-start;
-	}
-	
-	.message p {
-		padding-top: 75px;
-		padding-left: 0%;
-		font-size: 82px;
-		letter-spacing: 0.1em;
-		font-weight: bold;
-		line-height: 150%;
-		text-align: left;
-		color: black;
-		font-family: PlayfairDisplay-Bold;
-		
-	}		
-	
-	.message p span {
-		color: white;
-	}
-	
-	
-	.rectangle {
-		max-width: 700px;
-		margin: 0 auto;
-		margin-top: 50px;
-		margin-bottom: 50px;
-		display: flex;
-		justify-content: flex-start;
-	}
-	
-	.rectangle p {
-		padding-top: 15px;
-		background-color: white;
-		height: 55px;
-		width: 700px;
-		font-size: 25px;
-		letter-spacing: 0.05em;
-		font-weight: bold;
-		text-align: center;
-		color: black;
-		font-family: PlayfairDisplay-Bold;
-	}
-
-
-
-}
-
-@media screen and (max-width: 768px) {
-
-	body {
-		background: black url(../pictures/background_5.jpg) no-repeat bottom fixed;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-	}
-
-	header {
-		width: 600px;
-		margin: 0 auto;
-	}
-
-	.heading-div {
-		max-width: 600px;
-		margin: 0 auto;
-		display: flex;
-		justify-content: flex-start;
-	}
-	
-	.logo {
-		display: flex;
-		padding-top: 100px;
-		padding-right: 150px;
-		padding-left: 0%;
-	}
-	
-	.logo img {
-		width: 100px;
-	}
-	
-	.nav-menu {
-		display: flex;
-		width: 450px;
-		justify-content: space-between;
-		padding-top: 193px;
-	}
-	
-	.message {
-		max-width: 600px;
-		margin: 0 auto;
-		display: flex;
-		justify-content: flex-start;
-	}
-	
-	.message p {
-		padding-top: 75px;
-		padding-left: 0%;
-		font-size: 70px;
-		letter-spacing: 0.1em;
-		font-weight: bold;
-		line-height: 150%;
-		text-align: left;
-		color: black;
-		font-family: PlayfairDisplay-Bold;
-		
-	}		
-	
-	.message p span {
-		color: white;
-	}
-	
-	
-	.rectangle {
-		max-width: 600px;
-		margin: 0 auto;
-		margin-top: 50px;
-		margin-bottom: 50px;
-		display: flex;
-		justify-content: flex-start;
-	}
-	
-	.rectangle p {
-		padding-top: 15px;
-		background-color: white;
-		height: 55px;
-		width: 600px;
-		font-size: 25px;
-		letter-spacing: 0.05em;
-		font-weight: bold;
-		text-align: center;
-		color: black;
-		font-family: PlayfairDisplay-Bold;
-	}
-}
-
-@media screen and (max-width: 440px) {
-
-	body {
-		background: black url(../pictures/background_5.jpg) no-repeat bottom fixed;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-	}
-
-	header {
-		width: 300px;
-		margin: 0 auto;
-	}
-
-	.heading-div {
-		max-width: 300px;
-		margin: 0 auto;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: flex-start;
-	}
-	
-	.logo {
-		display: flex;
-		padding-top: 50px;
-		padding-right: 0px;
-		padding-left: 0%;
-	}
-	
-	.logo img {
-		width: 75px;
-	}
-	
-	.nav-menu {
-		display: flex;
-		width: 300px;
-		justify-content: space-between;
-		padding-top: 93px;
-	}
-	
-	.message {
-		max-width: 300px;
-		margin: 0 auto;
-		display: flex;
-		justify-content: flex-start;
-	}
-	
-	.message p {
-		padding-top: 75px;
-		padding-left: 0%;
-		font-size: 35px;
-		letter-spacing: 0.1em;
-		font-weight: bold;
-		line-height: 150%;
-		text-align: left;
-		color: black;
-		font-family: PlayfairDisplay-Bold;
-		
-	}		
-	
-	.message p span {
-		color: white;
-	}
-	
-	
-	.rectangle {
-		max-width: 300px;
-		margin: 0 auto;
-		margin-top: 50px;
-		margin-bottom: 50px;
-		display: flex;
-		justify-content: flex-start;
-	}
-	
-	.rectangle p {
-		padding-top: 15px;
-		background-color: white;
-		height: 55px;
-		width: 300px;
-		font-size: 20px;
-		letter-spacing: 0.05em;
-		font-weight: bold;
-		text-align: center;
-		color: black;
-		font-family: PlayfairDisplay-Bold;
-	}
-	
-}
-*/
 
 @media screen and (max-width: 1024px) {
 
 	body {
-		background: black url(../pictures/background_5.jpg) no-repeat bottom fixed;
+		background: black url(../pictures/background_3.jpg) no-repeat bottom fixed;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -521,7 +231,7 @@ header {
 		justify-content: flex-start;
 	}
 	
-	.message p {
+	.message h1 {
 		padding-top: 75px;
 		padding-left: 0%;
 		font-size: 82px;
@@ -530,14 +240,11 @@ header {
 		line-height: 150%;
 		text-align: left;
 		color: black;
-		font-family: PlayfairDisplay-Bold;
-		
 	}		
 	
-	.message p span {
+	.message h1 span {
 		color: white;
 	}
-	
 	
 	.rectangle {
 		max-width: 700px;
@@ -549,7 +256,7 @@ header {
 	}
 	
 	.rectangle p {
-		padding-top: 15px;
+		padding-top: 11px;
 		background-color: white;
 		height: 55px;
 		width: 700px;
@@ -558,17 +265,13 @@ header {
 		font-weight: bold;
 		text-align: center;
 		color: black;
-		font-family: PlayfairDisplay-Bold;
 	}
-
-
-
 }
 
 @media screen and (max-width: 768px) {
 
 	body {
-		background: black url(../pictures/background_5.jpg) no-repeat bottom fixed;
+		background: black url(../pictures/background_3.jpg) no-repeat bottom fixed;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -617,7 +320,7 @@ header {
 		justify-content: flex-start;
 	}
 	
-	.message p {
+	.message h1 {
 		padding-top: 75px;
 		padding-left: 0%;
 		font-size: 60px;
@@ -626,15 +329,13 @@ header {
 		line-height: 150%;
 		text-align: left;
 		color: black;
-		font-family: PlayfairDisplay-Bold;
 		width: 450px;
 		margin: 0 auto;		
 	}		
 	
-	.message p span {
+	.message h1 span {
 		color: white;
 	}
-	
 	
 	.rectangle {
 		max-width: 450px;
@@ -646,7 +347,7 @@ header {
 	}
 	
 	.rectangle p {
-		padding-top: 13px;
+		padding-top: 11px;
 		background-color: white;
 		height: 55px;
 		width: 450px;
@@ -656,14 +357,13 @@ header {
 		font-weight: bold;
 		text-align: center;
 		color: black;
-		font-family: PlayfairDisplay-Bold;
 	}
 }
 
 @media screen and (max-width: 440px) {
 
 	body {
-		background: black url(../pictures/background_5.jpg) no-repeat bottom fixed;
+		background: black url(../pictures/background_3.jpg) no-repeat bottom fixed;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -712,7 +412,7 @@ header {
 		justify-content: flex-start;
 	}
 	
-	.message p {
+	.message h1 {
 		padding-top: 50px;
 		padding-left: 0%;
 		font-size: 35px;
@@ -721,14 +421,11 @@ header {
 		line-height: 150%;
 		text-align: left;
 		color: black;
-		font-family: PlayfairDisplay-Bold;
-		
 	}		
 	
-	.message p span {
+	.message h1 span {
 		color: white;
 	}
-	
 	
 	.rectangle {
 		max-width: 300px;
@@ -740,7 +437,7 @@ header {
 	}
 	
 	.rectangle p {
-		padding-top: 6px;
+		padding-top: 5px;
 		background-color: white;
 		height: 35px;
 		width: 300px;
@@ -749,13 +446,12 @@ header {
 		font-weight: bold;
 		text-align: center;
 		color: black;
-		font-family: PlayfairDisplay-Bold;
 	}
 	
 	@media screen and (max-width: 320px) {
 
 		body {
-			background: black url(../pictures/background_5.jpg) no-repeat bottom fixed;
+			background: black url(../pictures/background_3.jpg) no-repeat bottom fixed;
 			-webkit-background-size: cover;
 			-moz-background-size: cover;
 			-o-background-size: cover;
@@ -804,7 +500,7 @@ header {
 			justify-content: flex-start;
 		}
 		
-		.message p {
+		.message h1 {
 			padding-top: 50px;
 			padding-left: 0%;
 			font-size: 40px;
@@ -813,14 +509,11 @@ header {
 			line-height: 150%;
 			text-align: left;
 			color: black;
-			font-family: PlayfairDisplay-Bold;
-			
 		}		
 		
-		.message p span {
+		.message h1 span {
 			color: white;
 		}
-		
 		
 		.rectangle {
 			max-width: 200px;
@@ -832,16 +525,15 @@ header {
 		}
 		
 		.rectangle p {
-			padding-top: 5px;
+			padding-top: 4px;
 			background-color: white;
 			height: 25px;
 			width: 200px;
-			font-size: 14px;
+			font-size: 12px;
 			letter-spacing: 0.05em;
 			font-weight: bold;
 			text-align: center;
 			color: black;
-			font-family: PlayfairDisplay-Bold;
 		}
 	}
 }
